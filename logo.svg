@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" width="460" height="100">
+  <defs>
+    <linearGradient id="ll" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+    <linearGradient id="lr" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#15803d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left leaf -->
+  <path d="M42 108 C42 62, 14 42, 2 18 C24 28, 48 48, 56 108Z" fill="url(#ll)"/>
+  <path d="M42 108 C38 72, 24 50, 2 18" fill="none" stroke="#15803d" stroke-width="1.8" opacity="0.35"/>
+  <path d="M39 90 C32 78, 22 68, 10 52" fill="none" stroke="#15803d" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Right leaf -->
+  <path d="M56 108 C56 62, 84 42, 96 18 C74 28, 50 48, 42 108Z" fill="url(#lr)"/>
+  <path d="M56 108 C60 72, 74 50, 96 18" fill="none" stroke="#166534" stroke-width="1.8" opacity="0.35"/>
+  <path d="M59 90 C66 78, 76 68, 88 52" fill="none" stroke="#166534" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Text -->
+  <text x="120" y="68" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="400" fill="#374151">duo<tspan font-weight="600" fill="#16a34a">garden</tspan></text>
+</svg>
